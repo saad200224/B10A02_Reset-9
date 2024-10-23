@@ -25,6 +25,10 @@ header {
   color: #e6533c;
 }
 
+.hide {
+  display: none;
+}
+
 .logo {
   font-size: 36px;
   font-weight: 800;
@@ -180,4 +184,71 @@ a:hover {
   height: 40px;
   border-radius: 50%;
   background: rgb(230, 83, 60);
+}
+
+/* responsive codes */
+
+/* small device */
+@media screen and (max-width: 576px) {
+  .hero-section-container {
+    flex-direction: column;
+  }
+  .menu-item {
+    display: none;
+  }
+
+  header {
+    padding: 0 25px;
+  }
+  .fa-solid {
+    color: #fff;
+    font-size: 24px;
+  }
+  .video-overlay-1 {
+    position: absolute;
+    top: 10%;
+    right: -15%;
+  }
+  .video-overlay-2 {
+    position: absolute;
+    top: 50%;
+    right: 60%;
+  }
+}
+
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .hero-section-container {
+    flex-direction: column;
+  }
+  .menu-item {
+    gap: 20px;
+  }
+  header {
+    padding: 0 20px;
+  }
+  .menu-items > .fa-solid {
+    display: none;
+  }
+  .video-overlay-1 {
+    position: absolute;
+    top: 10%;
+    right: -15%;
+  }
+  .video-overlay-2 {
+    position: absolute;
+    top: 50%;
+    right: 60%;
+  }
+
+  .hero-section-text {
+    justify-content: start;
+  }
+}
+
+/* large screen */
+@media screen and (min-width: 992px) {
+  .menu-items > .fa-solid {
+    display: none;
+  }
 }
