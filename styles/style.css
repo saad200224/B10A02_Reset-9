@@ -13,15 +13,15 @@
   font-family: "Inter", serif;
 }
 
+body {
+  background-color: #111111;
+}
+
 /* nav bar styles */
 header {
-  background: linear-gradient(
-    180deg,
-    rgb(17, 17, 17),
-    rgba(119, 119, 119, 0) 100%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  height: 600px;
+  background-image: linear-gradient(180deg, #111111, #272727);
+
+  height: auto;
   color: #e6533c;
 }
 
@@ -32,7 +32,6 @@ header {
 
 nav {
   margin-bottom: 60px;
-  border: 2px solid blueviolet;
   margin-top: 60px;
   max-width: 1060px;
   margin: 0 auto;
@@ -92,4 +91,93 @@ a:hover {
 
 .hero-desc {
   font-size: 16px;
+}
+
+.special-text {
+  font-size: 78px;
+}
+
+.hero-heading {
+  font-size: 78px;
+  font-weight: 900;
+}
+
+.hero-section-container {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-desc {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.hero-section-img {
+  position: relative;
+}
+
+.hero-section-img > img {
+  width: 100%;
+}
+
+.video-overlay-1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 16px 24px;
+  width: 193px;
+  position: absolute;
+  top: 20%;
+  right: -15%;
+}
+
+.video-overlay-2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 16px 24px;
+  width: 220px;
+  position: absolute;
+  top: 70%;
+  right: 75%;
+}
+
+.video-overlay-1 > h3 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.video-overlay-1 > p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.video-overlay-2 > div > h3 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.video-overlay-2 > div > p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.circle-overlay {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(230, 83, 60);
 }
