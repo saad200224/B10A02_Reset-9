@@ -70,7 +70,7 @@ nav {
   color: #fff;
 }
 
-a:hover {
+.menu-item a:hover {
   padding: 8px 20px;
   border-radius: 46px;
   background: rgb(230, 83, 60);
@@ -687,6 +687,76 @@ td {
   font-weight: 400;
 }
 
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 66px 120px 35px;
+}
+
+.footer-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: start;
+}
+
+.footer-first-col {
+  width: 80%;
+}
+
+.footer-right-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-first-col h1 {
+  color: #e6533c;
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.footer-first-col p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-second-col h2,
+.footer-third-col h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 39px;
+}
+
+.footer-second-col a,
+.footer-third-col a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.footer-second-col > ul > li,
+.footer-third-col > ul > li {
+  margin-bottom: 20px;
+}
+
+hr {
+  max-width: 1060px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 36px auto;
+}
+
+.copy-right-text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /* responsive codes */
 
 /* small device */
@@ -771,6 +841,23 @@ td {
     margin: 20px;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-right-side {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .footer-first-col p {
+    margin-bottom: 20px;
+  }
 }
 
 /* medium device */
@@ -834,6 +921,24 @@ td {
 
   .meet-section-collage {
     margin: 20px;
+  }
+
+  .footer-first-col p {
+    margin-bottom: 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: left;
+    align-items: flex-start;
+  }
+
+  .footer-right-side {
+    gap: 120px;
+  }
+
+  footer {
+    padding: 20px;
   }
 }
 
