@@ -240,6 +240,44 @@ a:hover {
   font-size: 14px;
 }
 
+.card-section-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 30px;
+  display: flex;
+  gap: 165px;
+  align-items: center;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+
+.card-text {
+  width: 50%;
+}
+
+.card-img {
+  width: 50%;
+}
+
+.card-text > h3 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+
+.card-text > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  margin-bottom: 34px;
+}
+
+.card-img > img {
+  width: 100%;
+  border-radius: 18px;
+}
+
 /* responsive codes */
 
 /* small device */
