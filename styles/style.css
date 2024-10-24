@@ -17,6 +17,12 @@ body {
   background-color: #111111;
 }
 
+main {
+  body {
+    background-color: #111111;
+  }
+}
+
 /* nav bar styles */
 header {
   background-image: linear-gradient(180deg, #111111, #272727);
@@ -184,6 +190,52 @@ a:hover {
   height: 40px;
   border-radius: 50%;
   background: rgb(230, 83, 60);
+}
+
+.habit-container {
+  max-width: 1060px;
+  margin: 100px auto;
+}
+
+.habit-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  gap: 40px;
+}
+
+.habit-heading {
+  text-align: center;
+}
+
+.habit-heading > h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+}
+.habit-heading > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+
+.habit-items {
+  text-align: center;
+}
+
+.habit-items > div > img {
+  border-radius: 50%;
+}
+
+.habit-items > div > h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.habit-items > div > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
 }
 
 /* responsive codes */
