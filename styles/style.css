@@ -633,6 +633,16 @@ td {
     grid-template-columns: 45% 55%;
     grid-template-rows: auto;
   }
+  .bmi-calculator-table {
+    flex-direction: column;
+  }
+  .bmi-calc-left,
+  .bmi-calc-right {
+    width: 100%;
+  }
+  .bmi-calc-container {
+    padding: 20px;
+  }
 }
 
 /* medium device */
@@ -678,6 +688,20 @@ td {
 
   .training-container {
     margin: 0 20px;
+    margin-top: 60px;
+  }
+
+  .bmi-calc-left,
+  .bmi-calc-right {
+    width: 100%;
+  }
+
+  .bmi-calculator-table {
+    flex-direction: column;
+  }
+
+  .bmi-calc-container {
+    padding: 20px;
   }
 }
 
