@@ -300,6 +300,85 @@ a:hover {
   object-fit: cover;
 }
 
+.exercise-img-1 {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../images/exercise1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.exercise-img-1-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 255, 210, 0.5);
+}
+.exercise-img-2 {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../images/exercise2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.exercise-img-2-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.exercise-img-3 {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../images/exercise3.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.exercise-img-3-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(202, 154, 154, 0.5);
+}
+.exercise-img-4 {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../images/exercise4.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.exercise-img-4-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.exercise-img-5 {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../images/exercise5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.exercise-img-5-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(66, 255, 0, 0.3);
+}
+.exercise-img-6 {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../images/exercise6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.exercise-img-6-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 71, 255, 0.3);
+}
+
 .training-text > h3 {
   color: #fff;
   font-size: 48px;
