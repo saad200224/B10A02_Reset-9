@@ -306,6 +306,15 @@ a:hover {
   background-image: url("../images/exercise1.jpg");
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.overlay-text-1 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: black;
+  font-size: 14px;
 }
 
 .exercise-img-1-overlay {
@@ -319,6 +328,15 @@ a:hover {
   background-image: url("../images/exercise2.png");
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.overlay-text-2 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: #fff;
+  font-size: 14px;
 }
 
 .exercise-img-2-overlay {
@@ -332,6 +350,15 @@ a:hover {
   background-image: url("../images/exercise3.png");
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.overlay-text-3 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: #fff;
+  font-size: 14px;
 }
 
 .exercise-img-3-overlay {
@@ -345,6 +372,15 @@ a:hover {
   background-image: url("../images/exercise4.png");
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.overlay-text-4 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: #fff;
+  font-size: 14px;
 }
 
 .exercise-img-4-overlay {
@@ -358,6 +394,15 @@ a:hover {
   background-image: url("../images/exercise5.jpg");
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.overlay-text-5 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: #fff;
+  font-size: 14px;
 }
 
 .exercise-img-5-overlay {
@@ -371,6 +416,15 @@ a:hover {
   background-image: url("../images/exercise6.jpg");
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.overlay-text-6 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: #fff;
+  font-size: 14px;
 }
 
 .exercise-img-6-overlay {
