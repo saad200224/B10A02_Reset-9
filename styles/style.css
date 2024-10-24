@@ -495,6 +495,25 @@ a:hover {
   .join-btn {
     width: 100%;
   }
+
+  .training-container {
+    margin: 0 20px;
+    margin-top: 60px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .training-img-row-1 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+  }
+  .training-img-row-2 {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: auto;
+  }
 }
 
 /* medium device */
@@ -536,6 +555,10 @@ a:hover {
 
   .card-img > img {
     width: 100%;
+  }
+
+  .training-container {
+    margin: 0 20px;
   }
 }
 
