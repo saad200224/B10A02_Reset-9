@@ -766,6 +766,11 @@ td {
   .bmi-calc-container {
     padding: 20px;
   }
+
+  .meet-section-collage {
+    margin: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* medium device */
@@ -825,6 +830,10 @@ td {
 
   .bmi-calc-container {
     padding: 20px;
+  }
+
+  .meet-section-collage {
+    margin: 20px;
   }
 }
 
