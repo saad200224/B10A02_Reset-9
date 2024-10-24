@@ -93,6 +93,7 @@ a:hover {
   border-radius: 42px;
   background: transparent;
   color: #fff;
+  cursor: pointer;
 }
 
 .primary-btn:hover {
@@ -464,6 +465,10 @@ a:hover {
   margin-bottom: 80px;
 }
 
+.bmi-container {
+  margin-bottom: 80px;
+}
+
 .bmi-calc-container {
   background-color: rgb(34, 34, 34);
   padding: 48px 180px;
@@ -562,6 +567,124 @@ td {
 [name="age"],
 [name="sex"] {
   width: 50%;
+}
+.meet-section-container {
+  margin-bottom: 80px;
+}
+.meet-section-heading {
+  text-align: center;
+}
+
+.meet-section-heading h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+
+.meet-section-heading p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.meet-section-collage {
+  max-width: 1060px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+.meet-section-collage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.meet-trainer-img-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/trainer1.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  position: relative;
+}
+.meet-trainer-img-2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/trainer2.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  position: relative;
+}
+.meet-trainer-img-3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/trainer3.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  position: relative;
+}
+.meet-trainer-img-4 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/trainer4.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  position: relative;
+}
+.meet-trainer-img-5 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/trainer5.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  position: relative;
+}
+.meet-trainer-img-6 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/trainer6.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+  position: relative;
+}
+
+.meet-trainer-overlay {
+  width: 100%;
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 18px;
+}
+
+.meet-trainer-text {
+  position: absolute;
+  bottom: 6%;
+  left: 5%;
+}
+
+.meet-section-collage h5 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.meet-section-collage p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /* responsive codes */
