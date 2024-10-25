@@ -447,6 +447,80 @@ nav {
   margin-bottom: 58px;
 }
 
+.price-list-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.price-list-container > h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.price-list-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.price-list-card-1 {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #e78f81;
+}
+.price-list-card-2 {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #87a2ff;
+}
+.price-list-card-3 {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #bb9ab1;
+}
+
+.price-list-card-1 h2,
+.price-list-card-2 h2,
+.price-list-card-3 h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.price-list-card-1 p,
+.price-list-card-2 p,
+.price-list-card-3 p {
+  margin-bottom: 25px;
+}
+
+.price-list-details {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.price-list-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  gap: 16px;
+}
+
+.price-list-right {
+  text-align: left;
+  font-size: 18px;
+}
+
+.price-list-right ul li {
+  margin-bottom: 10px;
+}
+
 .bmi-heading {
   text-align: center;
 }
@@ -560,6 +634,30 @@ td {
   display: flex;
   gap: 12px;
   margin-bottom: 12px;
+}
+
+.input-field-row-2 {
+  position: relative;
+}
+
+.input-field-row-2 .fa-angle-down {
+  position: absolute;
+  right: 4%;
+  top: 35%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+
+.input-field-activity {
+  position: relative;
+}
+
+.input-field-activity .fa-angle-down {
+  position: absolute;
+  right: 4%;
+  top: 35%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
 }
 
 .input-field [name="height"],
@@ -858,6 +956,23 @@ hr {
   .footer-first-col p {
     margin-bottom: 20px;
   }
+
+  .price-list-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .price-list-container {
+    margin: 60px 20px;
+  }
+
+  .price-list-left {
+    gap: 6px;
+  }
+
+  .fa-check,
+  .fa-xmark {
+    color: #111111;
+  }
 }
 
 /* medium device */
@@ -939,6 +1054,14 @@ hr {
 
   footer {
     padding: 20px;
+  }
+
+  .price-list-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .price-list-container {
+    margin: 60px 20px;
   }
 }
 
